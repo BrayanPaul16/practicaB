@@ -16,6 +16,7 @@ public class practica extends javax.swing.JFrame {
 
         btnactivar = new javax.swing.JButton();
         lblmensaje = new javax.swing.JLabel();
+        lblmensaje2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -31,7 +32,12 @@ public class practica extends javax.swing.JFrame {
         lblmensaje.setFont(new java.awt.Font("Lucida Handwriting", 3, 18)); // NOI18N
         lblmensaje.setForeground(new java.awt.Color(255, 0, 0));
         lblmensaje.setText("MENSAJE1");
-        getContentPane().add(lblmensaje, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 330, -1));
+        getContentPane().add(lblmensaje, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 330, -1));
+
+        lblmensaje2.setFont(new java.awt.Font("Lucida Handwriting", 3, 18)); // NOI18N
+        lblmensaje2.setForeground(new java.awt.Color(255, 0, 0));
+        lblmensaje2.setText("MENSAJE2");
+        getContentPane().add(lblmensaje2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 330, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -39,6 +45,7 @@ public class practica extends javax.swing.JFrame {
     private void btnactivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactivarActionPerformed
         // TODO add your handling code here:
         lblmensaje.setText("PUTO MONTENEGRO");
+        lblmensaje2.setText("HOLA");
     }//GEN-LAST:event_btnactivarActionPerformed
 
     
@@ -77,5 +84,6 @@ public class practica extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnactivar;
     private javax.swing.JLabel lblmensaje;
+    private javax.swing.JLabel lblmensaje2;
     // End of variables declaration//GEN-END:variables
 }
