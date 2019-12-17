@@ -45,7 +45,7 @@ public class practica extends javax.swing.JFrame {
     private void btnactivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactivarActionPerformed
         // TODO add your handling code here:
         lblmensaje.setText("PUTO MONTENEGRO");
-        lblmensaje2.setText("HOLA");
+        lblmensaje2.setText("HOLA");nsaj
     }//GEN-LAST:event_btnactivarActionPerformed
 
     
