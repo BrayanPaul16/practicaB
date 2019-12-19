@@ -44,7 +44,7 @@ public class practica extends javax.swing.JFrame {
 
     private void btnactivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactivarActionPerformed
         // TODO add your handling code here:
-        lblmensaje.setText("hola rroro");
+        lblmensaje.setText("hola rroro manin");
         lblmensaje2.setText("HOLA ..............");
         
         
