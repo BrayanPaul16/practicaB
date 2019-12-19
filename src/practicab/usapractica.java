@@ -7,7 +7,7 @@ public class usapractica {
         practica1 p=new practica1();
         p.setVisible(true);
         p.setLocationRelativeTo(null);
-                
+               
                 
     }
 }
